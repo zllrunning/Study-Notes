@@ -1,5 +1,5 @@
 # Study-Notes
-This is my study notes!
+**This is my study notes!**
 ## About Python
 这里会放置我学习python过程中的例子。
 当然，这里很多的例子来源于其他使用者，这里仅作学习纪录，不做其他用途。
@@ -8,5 +8,9 @@ This is my study notes!
   * [image_and_vide](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/image_and_video.py) : onvert video to images and images to video
   * [image_scrap](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/image_scrapy.py) : scrapy high resolution images using two for-loop
   * [test_net_connection](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/test_net_connection.py) : test your Internet
-​
+### [homepage](https://github.com/zllrunning)
+
+<a href="https://github.com/zllrunning">
+    <img class="page-image" src="https://github.com/zllrunning/Study-Notes/blob/master/images/funny-pig.gif" >
+</a>
   
