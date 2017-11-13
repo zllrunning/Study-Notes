@@ -6,4 +6,4 @@ This is my study notes!
 
 * little but useful
 
-*[image_and_video.py](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/image_and_video.py)
+  *[image_and_video.py](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/image_and_video.py)
