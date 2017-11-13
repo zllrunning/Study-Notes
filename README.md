@@ -19,8 +19,8 @@
 <br>  
 
 ### [Homepage](https://github.com/zllrunning)
-
-<a href="https://github.com/zllrunning">
-<img class="page-image" src="https://github.com/zllrunning/Study-Notes/blob/master/images/giphy.gif" >
-</a>
-
+<p align="center">
+	<a href="https://github.com/zllrunning">
+    <img class="page-image" src="https://github.com/zllrunning/Study-Notes/blob/master/images/giphy.gif" >
+	</a>
+</p>
