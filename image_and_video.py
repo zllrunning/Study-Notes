@@ -17,10 +17,10 @@ def video_to_image():
 #image to Video
 def image_to_video():
     img_root = 'imageVideo/'
-    fps = 24    #保存视频的FPS，可以适当调整
+    fps = 24    #FPS
     # print(len(os.listdir(img_root)))
     fourcc = cv2.VideoWriter_fourcc(*'MJPG')
-    videoWriter = cv2.VideoWriter('saveVideo.mp4',fourcc,fps,(1920,1080))#最后一个是保存图片的尺寸
+    videoWriter = cv2.VideoWriter('saveVideo.mp4',fourcc,fps,(1920,1080))#(1920,1080)图片的尺寸
      
     for i in range(len(os.listdir(img_root))):
         frame = cv2.imread(img_root+str(i)+'.jpg')
