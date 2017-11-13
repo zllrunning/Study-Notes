@@ -6,6 +6,6 @@ This is my study notes!
 
 * little but useful
 
-  *  [image_and_vide](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/image_and_video.py) 
-  *  [image_scrap](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/image_scrapy.py) 
-  *  [test_net_connectio](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/test_net_connection.py) 
+  * [image_and_vide.py](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/image_and_video.py) 
+  * [image_scrap.py](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/image_scrapy.py) 
+  * [test_net_connectio.py](https://github.com/zllrunning/Study-Notes/blob/master/little%20but%20useful/test_net_connection.py) 
