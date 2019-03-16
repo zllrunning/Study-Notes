@@ -1,37 +1,35 @@
-## 1 Day
+### 配置
+- git config --global user.name zllrunning
+- git config --global user.email zllrunning@gmail.com
 
-###配置
-git config --global user.name zllrunning
-git config --global user.email zllrunning@gmail.com
+- git config --list --global   查看global配置
 
-git config --list --global
-
-###建git仓库
-git init repo
+### 建git仓库
+- git init repo
 
 touch readme
 
-git add readme   
-git commit -m'Add readme'　
-可以一条语句　git commit -am' Add readme'
+- git add readme   
+- git commit -m'Add readme'　
+可以一条语句　git commit -am ' Add readme'
 
 git status
 git log
 
 
-git add -A
+git add -A  
 git add -u 一次性添加多个更改的文件　　只能添加已经跟踪的
 
-###文件重命名
+### 文件重命名
 git mv README.md readme.md
 git commit -m'change readme file name'
 
-###git log的一些用法
-git log --oneline　　一行简洁的显示
-git log -n2　只显示最近的两个commit
-git log -n2 --oneline 当然可以组合使用
+### git log的一些用法
+- git log --oneline　　一行简洁的显示
+- git log -n2　只显示最近的两个commit
+- git log -n2 --oneline 当然可以组合使用
 
-图形化界面
+### 图形化界面
 gitk
 
 
@@ -43,7 +41,7 @@ gitk
 **commit tree blob关系  看看11节**
 
 
-###分离头指针的注意事项
+### 分离头指针的注意事项
 
 
 
@@ -88,10 +86,10 @@ squash 模式
 ### 合并不连续的几个commit为一个commit
 没搞好
 
-###暂存区和HEAD文件作比较
+### 暂存区和HEAD文件作比较
 git diff --cached
 
-###暂存区和工作区文件作比较
+### 暂存区和工作区文件作比较
 git diff
 默认比较工作区和暂存区差异，*整个工作区内容*
 
@@ -108,10 +106,10 @@ git reset HEAD
 
 git checkout test.m
 
-###如何取消暂存区部分文件的修改
+### 如何取消暂存区部分文件的修改
 git reset HEAD -- readme.md
 
-###消除最近的几次提交
+### 消除最近的几次提交
 
 - git reset --hard a40aa5b98　
 HEAD is now at a40aa5b　头指针指向了这个commit，暂存区和工作区都恢复到了这个commit的状态(*比较危险的操作*)
@@ -119,7 +117,7 @@ HEAD is now at a40aa5b　头指针指向了这个commit，暂存区和工作区�
 ### 看看不同提交指定文件的差异
 git diff 9fad38d0a1f a40aa5b98f -- readme.md
 
-###正确删除文件的方法
+### 正确删除文件的方法
 - git rm butterfly.png
 
 ###　紧急任务加塞怎么处理
