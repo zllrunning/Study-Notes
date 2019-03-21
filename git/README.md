@@ -120,7 +120,7 @@ git diff 9fad38d0a1f a40aa5b98f -- readme.md
 ### 正确删除文件的方法
 - git rm butterfly.png
 
-###　紧急任务加塞怎么处理
+### 紧急任务加塞怎么处理
 - git stash　压入stash
 - git stash list 列出stash列表
 - git stash apply 只能出stash,但是不弹出
