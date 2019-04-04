@@ -155,6 +155,21 @@ git diff 9fad38d0a1f a40aa5b98f -- readme.md
 - git branch -b git_commands github/git_commands 
 以远端分支建立本地分支
 
+### pull request
+- 克隆代码到本地
+git clone https://github.com/ZhaoJ9014/face.evoLVe.PyTorch.git
+- 创建一个修改分支
+git checkout -b fix_iter_loader_bug
+- 对文件进行修改
+- 提交修改，commit
+git commit -am 'fix iter bug'
+- 由于没有直接push到origin的权限，我们需要先对仓库进行fork，然后在本地添加一个新的推送地址
+git remote add upstream git@github.com:zllrunning/face.evoLVe.PyTorch
+- 推送本地分支到自己的face.evoLVe.PyTorch fork库
+git push upstream fix_iter_loader_bug
+- 到github网页pull request
+
+
 ### 不同人修改了不同文件，或者同一文件的不同位置
 - git fetch 
 - git merge
