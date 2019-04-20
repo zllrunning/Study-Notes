@@ -142,7 +142,10 @@ git diff 9fad38d0a1f a40aa5b98f -- readme.md
 - git remote add zhineng file:///home/zll/Desktop/zhineng.git
 - git push --set-upstream zhineng master
 
-
+### git clone 自己的仓库后　git push 需要账号密码
+如　Username for 'https://github.com':
+解决方案：
+- git remote set-url origin git+ssh://git@github.com/username/repo.git
 
 ### 本地仓库同步到github
 添加github远端
